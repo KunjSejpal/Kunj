@@ -1,0 +1,990 @@
+3.1657 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+21.4950 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1366, 768]. Using actual size
+22.4312 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002195FB3AD00>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000219A31C52B0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+22.4315 	EXP 	window1: mouseVisible = True
+22.4318 	EXP 	window1: mouseVisible = False
+22.4319 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+22.4320 	EXP 	window1: recordFrameIntervals = False
+22.5969 	EXP 	window1: recordFrameIntervals = True
+22.7804 	EXP 	Screen (0) actual frame rate measured at 60.01Hz
+22.7805 	EXP 	window1: recordFrameIntervals = False
+26.0610 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+26.0707 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, interpolate=True, mask='circle', maskParams=None, name='grating', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([5., 5.]), size=array([0.1, 0.1]), tex='sin', texRes=128.0, units='height', win=Window(...))
+26.0839 	EXP 	Imported AHMEDABAD UNIVERSITY/PSY310 Lab in Psychology/conditions3.xlsx as conditions, 1 conditions, 5 params
+26.6103 	EXP 	window1: recordFrameIntervals = False
+26.6163 	EXP 	window1: recordFrameIntervals = False
+27.6132 	EXP 	fixation: autoDraw = True
+28.0784 	EXP 	grating: autoDraw = True
+28.0784 	EXP 	grating: tex = 'sin'
+28.3786 	EXP 	grating: autoDraw = False
+28.4309 	EXP 	window1: recordFrameIntervals = False
+28.4321 	DATA 	Keypress: right
+28.4451 	EXP 	fixation: autoDraw = False
+28.4451 	EXP 	grating: autoDraw = False
+28.4453 	EXP 	window1: recordFrameIntervals = False
+29.4288 	EXP 	fixation: autoDraw = True
+30.4286 	EXP 	fixation: autoDraw = False
+30.4449 	EXP 	grating: autoDraw = True
+30.4449 	EXP 	grating: tex = 'sin'
+30.7453 	EXP 	grating: autoDraw = False
+30.8145 	EXP 	window1: recordFrameIntervals = False
+30.8156 	DATA 	Keypress: right
+30.8290 	EXP 	fixation: autoDraw = False
+30.8290 	EXP 	grating: autoDraw = False
+30.8292 	EXP 	window1: recordFrameIntervals = False
+31.8126 	EXP 	fixation: autoDraw = True
+32.8123 	EXP 	fixation: autoDraw = False
+32.8287 	EXP 	grating: autoDraw = True
+32.8287 	EXP 	grating: tex = 'sin'
+33.1287 	EXP 	grating: autoDraw = False
+33.2641 	EXP 	window1: recordFrameIntervals = False
+33.2651 	DATA 	Keypress: right
+33.2789 	EXP 	fixation: autoDraw = False
+33.2789 	EXP 	grating: autoDraw = False
+33.2792 	EXP 	window1: recordFrameIntervals = False
+34.2630 	EXP 	fixation: autoDraw = True
+35.2622 	EXP 	fixation: autoDraw = False
+35.2789 	EXP 	grating: autoDraw = True
+35.2789 	EXP 	grating: tex = 'sin'
+35.5788 	EXP 	grating: autoDraw = False
+35.6989 	EXP 	window1: recordFrameIntervals = False
+35.7002 	DATA 	Keypress: right
+35.7130 	EXP 	fixation: autoDraw = False
+35.7130 	EXP 	grating: autoDraw = False
+35.7133 	EXP 	window1: recordFrameIntervals = False
+36.6965 	EXP 	fixation: autoDraw = True
+37.7122 	EXP 	fixation: autoDraw = False
+37.7122 	EXP 	grating: autoDraw = True
+37.7122 	EXP 	grating: tex = 'sin'
+38.0119 	EXP 	grating: autoDraw = False
+38.1140 	EXP 	window1: recordFrameIntervals = False
+38.1150 	DATA 	Keypress: right
+38.1291 	EXP 	fixation: autoDraw = False
+38.1291 	EXP 	grating: autoDraw = False
+38.1293 	EXP 	window1: recordFrameIntervals = False
+39.1129 	EXP 	fixation: autoDraw = True
+40.1129 	EXP 	fixation: autoDraw = False
+40.1129 	EXP 	grating: autoDraw = True
+40.1129 	EXP 	grating: tex = 'sin'
+40.4123 	EXP 	grating: autoDraw = False
+40.4978 	EXP 	window1: recordFrameIntervals = False
+40.4987 	DATA 	Keypress: left
+40.5124 	EXP 	fixation: autoDraw = False
+40.5124 	EXP 	grating: autoDraw = False
+40.5126 	EXP 	window1: recordFrameIntervals = False
+41.4973 	EXP 	fixation: autoDraw = True
+42.5125 	EXP 	fixation: autoDraw = False
+42.5125 	EXP 	grating: autoDraw = True
+42.5125 	EXP 	grating: tex = 'sin'
+42.8123 	EXP 	grating: autoDraw = False
+42.8312 	EXP 	window1: recordFrameIntervals = False
+42.8322 	DATA 	Keypress: right
+42.8456 	EXP 	fixation: autoDraw = False
+42.8456 	EXP 	grating: autoDraw = False
+42.8458 	EXP 	window1: recordFrameIntervals = False
+43.8298 	EXP 	fixation: autoDraw = True
+44.8291 	EXP 	fixation: autoDraw = False
+44.8460 	EXP 	grating: autoDraw = True
+44.8460 	EXP 	grating: tex = 'sin'
+45.1459 	EXP 	grating: autoDraw = False
+45.2481 	EXP 	window1: recordFrameIntervals = False
+45.2492 	DATA 	Keypress: right
+45.2622 	EXP 	fixation: autoDraw = False
+45.2622 	EXP 	grating: autoDraw = False
+45.2625 	EXP 	window1: recordFrameIntervals = False
+46.2464 	EXP 	fixation: autoDraw = True
+47.2459 	EXP 	fixation: autoDraw = False
+47.2628 	EXP 	grating: autoDraw = True
+47.2628 	EXP 	grating: tex = 'sin'
+47.5621 	EXP 	grating: autoDraw = False
+47.6647 	EXP 	window1: recordFrameIntervals = False
+47.6658 	DATA 	Keypress: right
+47.6794 	EXP 	fixation: autoDraw = False
+47.6794 	EXP 	grating: autoDraw = False
+47.6796 	EXP 	window1: recordFrameIntervals = False
+48.6622 	EXP 	fixation: autoDraw = True
+49.6623 	EXP 	fixation: autoDraw = False
+49.6792 	EXP 	grating: autoDraw = True
+49.6792 	EXP 	grating: tex = 'sin'
+49.9792 	EXP 	grating: autoDraw = False
+50.0482 	EXP 	window1: recordFrameIntervals = False
+50.0492 	DATA 	Keypress: right
+50.0625 	EXP 	fixation: autoDraw = False
+50.0625 	EXP 	grating: autoDraw = False
+50.0627 	EXP 	window1: recordFrameIntervals = False
+51.0465 	EXP 	fixation: autoDraw = True
+52.0459 	EXP 	fixation: autoDraw = False
+52.0629 	EXP 	grating: autoDraw = True
+52.0629 	EXP 	grating: tex = 'sin'
+52.3626 	EXP 	grating: autoDraw = False
+52.4477 	EXP 	window1: recordFrameIntervals = False
+52.4490 	DATA 	Keypress: right
+52.4626 	EXP 	fixation: autoDraw = False
+52.4626 	EXP 	grating: autoDraw = False
+52.4628 	EXP 	window1: recordFrameIntervals = False
+53.4464 	EXP 	fixation: autoDraw = True
+54.4460 	EXP 	fixation: autoDraw = False
+54.4625 	EXP 	grating: autoDraw = True
+54.4625 	EXP 	grating: tex = 'sin'
+54.7623 	EXP 	grating: autoDraw = False
+54.8812 	EXP 	window1: recordFrameIntervals = False
+54.8820 	DATA 	Keypress: right
+54.8961 	EXP 	fixation: autoDraw = False
+54.8961 	EXP 	grating: autoDraw = False
+54.8963 	EXP 	window1: recordFrameIntervals = False
+55.8805 	EXP 	fixation: autoDraw = True
+56.8962 	EXP 	fixation: autoDraw = False
+56.8962 	EXP 	grating: autoDraw = True
+56.8962 	EXP 	grating: tex = 'sin'
+57.1955 	EXP 	grating: autoDraw = False
+57.2814 	EXP 	window1: recordFrameIntervals = False
+57.2824 	DATA 	Keypress: left
+57.2960 	EXP 	fixation: autoDraw = False
+57.2960 	EXP 	grating: autoDraw = False
+57.2962 	EXP 	window1: recordFrameIntervals = False
+58.2794 	EXP 	fixation: autoDraw = True
+59.2794 	EXP 	fixation: autoDraw = False
+59.2965 	EXP 	grating: autoDraw = True
+59.2965 	EXP 	grating: tex = 'sin'
+59.5960 	EXP 	grating: autoDraw = False
+59.6982 	EXP 	window1: recordFrameIntervals = False
+59.6993 	DATA 	Keypress: left
+59.7129 	EXP 	fixation: autoDraw = False
+59.7129 	EXP 	grating: autoDraw = False
+59.7131 	EXP 	window1: recordFrameIntervals = False
+60.6965 	EXP 	fixation: autoDraw = True
+61.6961 	EXP 	fixation: autoDraw = False
+61.7128 	EXP 	grating: autoDraw = True
+61.7128 	EXP 	grating: tex = 'sin'
+62.0127 	EXP 	grating: autoDraw = False
+67.7478 	EXP 	window1: recordFrameIntervals = False
+67.7489 	DATA 	Keypress: right
+67.7627 	EXP 	fixation: autoDraw = False
+67.7627 	EXP 	grating: autoDraw = False
+67.7629 	EXP 	window1: recordFrameIntervals = False
+68.7457 	EXP 	fixation: autoDraw = True
+69.7465 	EXP 	fixation: autoDraw = False
+69.7465 	EXP 	grating: autoDraw = True
+69.7465 	EXP 	grating: tex = 'sin'
+70.0467 	EXP 	grating: autoDraw = False
+70.1147 	EXP 	window1: recordFrameIntervals = False
+70.1157 	DATA 	Keypress: right
+70.1293 	EXP 	fixation: autoDraw = False
+70.1293 	EXP 	grating: autoDraw = False
+70.1295 	EXP 	window1: recordFrameIntervals = False
+71.1145 	EXP 	fixation: autoDraw = True
+72.1132 	EXP 	grating: autoDraw = True
+72.1132 	EXP 	grating: tex = 'sin'
+72.1294 	EXP 	fixation: autoDraw = False
+72.4128 	EXP 	grating: autoDraw = False
+72.4316 	EXP 	window1: recordFrameIntervals = False
+72.4326 	DATA 	Keypress: right
+72.4461 	EXP 	fixation: autoDraw = False
+72.4461 	EXP 	grating: autoDraw = False
+72.4462 	EXP 	window1: recordFrameIntervals = False
+73.4299 	EXP 	fixation: autoDraw = True
+74.4298 	EXP 	fixation: autoDraw = False
+74.4464 	EXP 	grating: autoDraw = True
+74.4464 	EXP 	grating: tex = 'sin'
+74.7463 	EXP 	grating: autoDraw = False
+74.7486 	EXP 	window1: recordFrameIntervals = False
+74.7499 	DATA 	Keypress: left
+74.7631 	EXP 	fixation: autoDraw = False
+74.7631 	EXP 	grating: autoDraw = False
+74.7633 	EXP 	window1: recordFrameIntervals = False
+75.7623 	EXP 	fixation: autoDraw = True
+76.7472 	EXP 	grating: autoDraw = True
+76.7472 	EXP 	grating: tex = 'sin'
+76.7638 	EXP 	fixation: autoDraw = False
+77.0469 	EXP 	grating: autoDraw = False
+77.3328 	EXP 	window1: recordFrameIntervals = False
+77.3341 	DATA 	Keypress: right
+77.3469 	EXP 	fixation: autoDraw = False
+77.3469 	EXP 	grating: autoDraw = False
+77.3472 	EXP 	window1: recordFrameIntervals = False
+78.3455 	EXP 	fixation: autoDraw = True
+79.3464 	EXP 	fixation: autoDraw = False
+79.3464 	EXP 	grating: autoDraw = True
+79.3464 	EXP 	grating: tex = 'sin'
+79.6466 	EXP 	grating: autoDraw = False
+79.6985 	EXP 	window1: recordFrameIntervals = False
+79.6997 	DATA 	Keypress: right
+79.7131 	EXP 	fixation: autoDraw = False
+79.7131 	EXP 	grating: autoDraw = False
+79.7134 	EXP 	window1: recordFrameIntervals = False
+80.6967 	EXP 	fixation: autoDraw = True
+81.6972 	EXP 	fixation: autoDraw = False
+81.6972 	EXP 	grating: autoDraw = True
+81.6972 	EXP 	grating: tex = 'sin'
+81.9972 	EXP 	grating: autoDraw = False
+82.0332 	EXP 	window1: recordFrameIntervals = False
+82.0344 	DATA 	Keypress: right
+82.0471 	EXP 	fixation: autoDraw = False
+82.0471 	EXP 	grating: autoDraw = False
+82.0474 	EXP 	window1: recordFrameIntervals = False
+83.1556 	EXP 	fixation: autoDraw = True
+84.0528 	EXP 	grating: autoDraw = True
+84.0528 	EXP 	grating: tex = 'sin'
+84.1640 	EXP 	fixation: autoDraw = False
+84.3640 	EXP 	grating: autoDraw = False
+84.4667 	EXP 	window1: recordFrameIntervals = False
+84.4680 	DATA 	Keypress: left
+84.4805 	EXP 	fixation: autoDraw = False
+84.4805 	EXP 	grating: autoDraw = False
+84.4808 	EXP 	window1: recordFrameIntervals = False
+85.4789 	EXP 	fixation: autoDraw = True
+86.4804 	EXP 	fixation: autoDraw = False
+86.4804 	EXP 	grating: autoDraw = True
+86.4804 	EXP 	grating: tex = 'sin'
+86.6656 	EXP 	window1: recordFrameIntervals = False
+86.6665 	DATA 	Keypress: right
+86.6800 	EXP 	fixation: autoDraw = False
+86.6800 	EXP 	grating: autoDraw = False
+86.6802 	EXP 	window1: recordFrameIntervals = False
+87.6648 	EXP 	fixation: autoDraw = True
+88.6802 	EXP 	fixation: autoDraw = False
+88.6802 	EXP 	grating: autoDraw = True
+88.6802 	EXP 	grating: tex = 'sin'
+88.9803 	EXP 	grating: autoDraw = False
+89.0983 	EXP 	window1: recordFrameIntervals = False
+89.0992 	DATA 	Keypress: left
+89.1133 	EXP 	fixation: autoDraw = False
+89.1133 	EXP 	grating: autoDraw = False
+89.1135 	EXP 	window1: recordFrameIntervals = False
+90.1130 	EXP 	fixation: autoDraw = True
+91.0972 	EXP 	grating: autoDraw = True
+91.0972 	EXP 	grating: tex = 'sin'
+91.1139 	EXP 	fixation: autoDraw = False
+91.3974 	EXP 	grating: autoDraw = False
+91.4496 	EXP 	window1: recordFrameIntervals = False
+91.4507 	DATA 	Keypress: right
+91.4642 	EXP 	fixation: autoDraw = False
+91.4642 	EXP 	grating: autoDraw = False
+91.4644 	EXP 	window1: recordFrameIntervals = False
+92.4813 	EXP 	fixation: autoDraw = True
+93.4476 	EXP 	grating: autoDraw = True
+93.4476 	EXP 	grating: tex = 'sin'
+93.4811 	EXP 	fixation: autoDraw = False
+93.7474 	EXP 	grating: autoDraw = False
+93.7996 	EXP 	window1: recordFrameIntervals = False
+93.8008 	DATA 	Keypress: left
+93.8139 	EXP 	fixation: autoDraw = False
+93.8139 	EXP 	grating: autoDraw = False
+93.8142 	EXP 	window1: recordFrameIntervals = False
+94.8127 	EXP 	fixation: autoDraw = True
+95.8146 	EXP 	fixation: autoDraw = False
+95.8146 	EXP 	grating: autoDraw = True
+95.8146 	EXP 	grating: tex = 'sin'
+96.0659 	EXP 	window1: recordFrameIntervals = False
+96.0670 	DATA 	Keypress: right
+96.0802 	EXP 	fixation: autoDraw = False
+96.0802 	EXP 	grating: autoDraw = False
+96.0805 	EXP 	window1: recordFrameIntervals = False
+97.0644 	EXP 	fixation: autoDraw = True
+98.0637 	EXP 	fixation: autoDraw = False
+98.0807 	EXP 	grating: autoDraw = True
+98.0807 	EXP 	grating: tex = 'sin'
+98.3491 	EXP 	window1: recordFrameIntervals = False
+98.3502 	DATA 	Keypress: left
+98.3641 	EXP 	fixation: autoDraw = False
+98.3641 	EXP 	grating: autoDraw = False
+98.3643 	EXP 	window1: recordFrameIntervals = False
+99.3486 	EXP 	fixation: autoDraw = True
+100.3637 	EXP 	fixation: autoDraw = False
+100.3637 	EXP 	grating: autoDraw = True
+100.3637 	EXP 	grating: tex = 'sin'
+100.5819 	EXP 	window1: recordFrameIntervals = False
+100.5829 	DATA 	Keypress: right
+100.5967 	EXP 	fixation: autoDraw = False
+100.5967 	EXP 	grating: autoDraw = False
+100.5968 	EXP 	window1: recordFrameIntervals = False
+101.5824 	EXP 	fixation: autoDraw = True
+102.5798 	EXP 	grating: autoDraw = True
+102.5798 	EXP 	grating: tex = 'sin'
+102.5972 	EXP 	fixation: autoDraw = False
+102.8807 	EXP 	grating: autoDraw = False
+102.9654 	EXP 	window1: recordFrameIntervals = False
+102.9662 	DATA 	Keypress: left
+102.9804 	EXP 	fixation: autoDraw = False
+102.9804 	EXP 	grating: autoDraw = False
+102.9806 	EXP 	window1: recordFrameIntervals = False
+103.9642 	EXP 	fixation: autoDraw = True
+104.9640 	EXP 	fixation: autoDraw = False
+104.9640 	EXP 	grating: autoDraw = True
+104.9640 	EXP 	grating: tex = 'sin'
+105.1829 	EXP 	window1: recordFrameIntervals = False
+105.1839 	DATA 	Keypress: right
+105.1971 	EXP 	fixation: autoDraw = False
+105.1971 	EXP 	grating: autoDraw = False
+105.1973 	EXP 	window1: recordFrameIntervals = False
+106.1807 	EXP 	fixation: autoDraw = True
+107.1813 	EXP 	fixation: autoDraw = False
+107.1977 	EXP 	grating: autoDraw = True
+107.1977 	EXP 	grating: tex = 'sin'
+107.4978 	EXP 	grating: autoDraw = False
+107.5003 	EXP 	window1: recordFrameIntervals = False
+107.5016 	DATA 	Keypress: right
+107.5146 	EXP 	fixation: autoDraw = False
+107.5146 	EXP 	grating: autoDraw = False
+107.5148 	EXP 	window1: recordFrameIntervals = False
+108.5135 	EXP 	fixation: autoDraw = True
+109.5138 	EXP 	fixation: autoDraw = False
+109.5138 	EXP 	grating: autoDraw = True
+109.5138 	EXP 	grating: tex = 'sin'
+109.8139 	EXP 	grating: autoDraw = False
+109.9159 	EXP 	window1: recordFrameIntervals = False
+109.9168 	DATA 	Keypress: right
+109.9308 	EXP 	fixation: autoDraw = False
+109.9308 	EXP 	grating: autoDraw = False
+109.9310 	EXP 	window1: recordFrameIntervals = False
+110.9159 	EXP 	fixation: autoDraw = True
+111.9308 	EXP 	fixation: autoDraw = False
+111.9308 	EXP 	grating: autoDraw = True
+111.9308 	EXP 	grating: tex = 'sin'
+112.2308 	EXP 	grating: autoDraw = False
+112.2332 	EXP 	window1: recordFrameIntervals = False
+112.2344 	DATA 	Keypress: right
+112.2475 	EXP 	fixation: autoDraw = False
+112.2475 	EXP 	grating: autoDraw = False
+112.2478 	EXP 	window1: recordFrameIntervals = False
+113.4143 	EXP 	fixation: autoDraw = True
+114.2481 	EXP 	grating: autoDraw = True
+114.2481 	EXP 	grating: tex = 'sin'
+114.4150 	EXP 	fixation: autoDraw = False
+114.5483 	EXP 	grating: autoDraw = False
+114.6672 	EXP 	window1: recordFrameIntervals = False
+114.6685 	DATA 	Keypress: left
+114.6816 	EXP 	fixation: autoDraw = False
+114.6816 	EXP 	grating: autoDraw = False
+114.6818 	EXP 	window1: recordFrameIntervals = False
+115.6658 	EXP 	fixation: autoDraw = True
+116.6813 	EXP 	fixation: autoDraw = False
+116.6813 	EXP 	grating: autoDraw = True
+116.6813 	EXP 	grating: tex = 'sin'
+116.9675 	EXP 	window1: recordFrameIntervals = False
+116.9689 	DATA 	Keypress: left
+116.9816 	EXP 	grating: autoDraw = False
+116.9816 	EXP 	fixation: autoDraw = False
+116.9816 	EXP 	grating: autoDraw = False
+116.9819 	EXP 	window1: recordFrameIntervals = False
+117.9659 	EXP 	fixation: autoDraw = True
+118.9813 	EXP 	fixation: autoDraw = False
+118.9813 	EXP 	grating: autoDraw = True
+118.9813 	EXP 	grating: tex = 'sin'
+119.2811 	EXP 	grating: autoDraw = False
+119.3659 	EXP 	window1: recordFrameIntervals = False
+119.3667 	DATA 	Keypress: right
+119.3811 	EXP 	fixation: autoDraw = False
+119.3811 	EXP 	grating: autoDraw = False
+119.3812 	EXP 	window1: recordFrameIntervals = False
+120.3648 	EXP 	fixation: autoDraw = True
+121.3643 	EXP 	fixation: autoDraw = False
+121.3811 	EXP 	grating: autoDraw = True
+121.3811 	EXP 	grating: tex = 'sin'
+121.6811 	EXP 	grating: autoDraw = False
+121.7664 	EXP 	window1: recordFrameIntervals = False
+121.7673 	DATA 	Keypress: left
+121.7817 	EXP 	fixation: autoDraw = False
+121.7817 	EXP 	grating: autoDraw = False
+121.7819 	EXP 	window1: recordFrameIntervals = False
+122.7662 	EXP 	fixation: autoDraw = True
+123.7653 	EXP 	grating: autoDraw = True
+123.7653 	EXP 	grating: tex = 'sin'
+123.7817 	EXP 	fixation: autoDraw = False
+124.0650 	EXP 	grating: autoDraw = False
+124.1507 	EXP 	window1: recordFrameIntervals = False
+124.1520 	DATA 	Keypress: left
+124.1648 	EXP 	fixation: autoDraw = False
+124.1648 	EXP 	grating: autoDraw = False
+124.1651 	EXP 	window1: recordFrameIntervals = False
+125.2544 	EXP 	fixation: autoDraw = True
+126.1648 	EXP 	grating: autoDraw = True
+126.1648 	EXP 	grating: tex = 'sin'
+126.2646 	EXP 	fixation: autoDraw = False
+126.3847 	EXP 	window1: recordFrameIntervals = False
+126.3859 	DATA 	Keypress: right
+126.3983 	EXP 	fixation: autoDraw = False
+126.3983 	EXP 	grating: autoDraw = False
+126.3986 	EXP 	window1: recordFrameIntervals = False
+127.3974 	EXP 	fixation: autoDraw = True
+128.3980 	EXP 	fixation: autoDraw = False
+128.3980 	EXP 	grating: autoDraw = True
+128.3980 	EXP 	grating: tex = 'sin'
+128.6976 	EXP 	grating: autoDraw = False
+128.9001 	EXP 	window1: recordFrameIntervals = False
+128.9009 	DATA 	Keypress: right
+128.9146 	EXP 	fixation: autoDraw = False
+128.9146 	EXP 	grating: autoDraw = False
+128.9149 	EXP 	window1: recordFrameIntervals = False
+129.8984 	EXP 	fixation: autoDraw = True
+130.8978 	EXP 	fixation: autoDraw = False
+130.9145 	EXP 	grating: autoDraw = True
+130.9145 	EXP 	grating: tex = 'sin'
+131.2147 	EXP 	grating: autoDraw = False
+131.3167 	EXP 	window1: recordFrameIntervals = False
+131.3178 	DATA 	Keypress: left
+131.3312 	EXP 	fixation: autoDraw = False
+131.3312 	EXP 	grating: autoDraw = False
+131.3314 	EXP 	window1: recordFrameIntervals = False
+132.3156 	EXP 	fixation: autoDraw = True
+133.3314 	EXP 	fixation: autoDraw = False
+133.3314 	EXP 	grating: autoDraw = True
+133.3314 	EXP 	grating: tex = 'sin'
+133.6312 	EXP 	grating: autoDraw = False
+133.7334 	EXP 	window1: recordFrameIntervals = False
+133.7345 	DATA 	Keypress: left
+133.7478 	EXP 	fixation: autoDraw = False
+133.7478 	EXP 	grating: autoDraw = False
+133.7480 	EXP 	window1: recordFrameIntervals = False
+134.7317 	EXP 	fixation: autoDraw = True
+135.7316 	EXP 	fixation: autoDraw = False
+135.7481 	EXP 	grating: autoDraw = True
+135.7481 	EXP 	grating: tex = 'sin'
+136.0481 	EXP 	grating: autoDraw = False
+136.0501 	EXP 	window1: recordFrameIntervals = False
+136.0512 	DATA 	Keypress: left
+136.0647 	EXP 	fixation: autoDraw = False
+136.0647 	EXP 	grating: autoDraw = False
+136.0649 	EXP 	window1: recordFrameIntervals = False
+137.0493 	EXP 	fixation: autoDraw = True
+138.0646 	EXP 	fixation: autoDraw = False
+138.0646 	EXP 	grating: autoDraw = True
+138.0646 	EXP 	grating: tex = 'sin'
+138.1836 	EXP 	window1: recordFrameIntervals = False
+138.1847 	DATA 	Keypress: right
+138.1984 	EXP 	fixation: autoDraw = False
+138.1984 	EXP 	grating: autoDraw = False
+138.1986 	EXP 	window1: recordFrameIntervals = False
+139.1822 	EXP 	fixation: autoDraw = True
+140.1816 	EXP 	fixation: autoDraw = False
+140.1981 	EXP 	grating: autoDraw = True
+140.1981 	EXP 	grating: tex = 'sin'
+140.4981 	EXP 	grating: autoDraw = False
+140.6336 	EXP 	window1: recordFrameIntervals = False
+140.6346 	DATA 	Keypress: left
+140.6483 	EXP 	fixation: autoDraw = False
+140.6483 	EXP 	grating: autoDraw = False
+140.6484 	EXP 	window1: recordFrameIntervals = False
+141.6330 	EXP 	fixation: autoDraw = True
+142.6484 	EXP 	fixation: autoDraw = False
+142.6484 	EXP 	grating: autoDraw = True
+142.6484 	EXP 	grating: tex = 'sin'
+142.9481 	EXP 	grating: autoDraw = False
+143.0335 	EXP 	window1: recordFrameIntervals = False
+143.0346 	DATA 	Keypress: left
+143.0484 	EXP 	fixation: autoDraw = False
+143.0484 	EXP 	grating: autoDraw = False
+143.0486 	EXP 	window1: recordFrameIntervals = False
+144.0322 	EXP 	fixation: autoDraw = True
+145.0315 	EXP 	fixation: autoDraw = False
+145.0481 	EXP 	grating: autoDraw = True
+145.0481 	EXP 	grating: tex = 'sin'
+145.3171 	EXP 	window1: recordFrameIntervals = False
+145.3179 	DATA 	Keypress: right
+145.3316 	EXP 	fixation: autoDraw = False
+145.3316 	EXP 	grating: autoDraw = False
+145.3318 	EXP 	window1: recordFrameIntervals = False
+146.3157 	EXP 	fixation: autoDraw = True
+147.3151 	EXP 	fixation: autoDraw = False
+147.3317 	EXP 	grating: autoDraw = True
+147.3317 	EXP 	grating: tex = 'sin'
+147.6320 	EXP 	grating: autoDraw = False
+147.6339 	EXP 	window1: recordFrameIntervals = False
+147.6349 	DATA 	Keypress: right
+147.6486 	EXP 	fixation: autoDraw = False
+147.6486 	EXP 	grating: autoDraw = False
+147.6488 	EXP 	window1: recordFrameIntervals = False
+148.6322 	EXP 	fixation: autoDraw = True
+149.6317 	EXP 	fixation: autoDraw = False
+149.6485 	EXP 	grating: autoDraw = True
+149.6485 	EXP 	grating: tex = 'sin'
+149.9485 	EXP 	grating: autoDraw = False
+150.0004 	EXP 	window1: recordFrameIntervals = False
+150.0014 	DATA 	Keypress: right
+150.0154 	EXP 	fixation: autoDraw = False
+150.0154 	EXP 	grating: autoDraw = False
+150.0156 	EXP 	window1: recordFrameIntervals = False
+150.9985 	EXP 	fixation: autoDraw = True
+151.9985 	EXP 	fixation: autoDraw = False
+152.0153 	EXP 	grating: autoDraw = True
+152.0153 	EXP 	grating: tex = 'sin'
+152.3152 	EXP 	grating: autoDraw = False
+152.3341 	EXP 	window1: recordFrameIntervals = False
+152.3352 	DATA 	Keypress: right
+152.3487 	EXP 	fixation: autoDraw = False
+152.3487 	EXP 	grating: autoDraw = False
+152.3489 	EXP 	window1: recordFrameIntervals = False
+153.3317 	EXP 	fixation: autoDraw = True
+154.3317 	EXP 	fixation: autoDraw = False
+154.3484 	EXP 	grating: autoDraw = True
+154.3484 	EXP 	grating: tex = 'sin'
+154.6488 	EXP 	grating: autoDraw = False
+154.6676 	EXP 	window1: recordFrameIntervals = False
+154.6687 	DATA 	Keypress: right
+154.6821 	EXP 	fixation: autoDraw = False
+154.6821 	EXP 	grating: autoDraw = False
+154.6823 	EXP 	window1: recordFrameIntervals = False
+155.6659 	EXP 	fixation: autoDraw = True
+156.6653 	EXP 	fixation: autoDraw = False
+156.6820 	EXP 	grating: autoDraw = True
+156.6820 	EXP 	grating: tex = 'sin'
+156.9820 	EXP 	grating: autoDraw = False
+157.0172 	EXP 	window1: recordFrameIntervals = False
+157.0183 	DATA 	Keypress: right
+157.0317 	EXP 	fixation: autoDraw = False
+157.0317 	EXP 	grating: autoDraw = False
+157.0319 	EXP 	window1: recordFrameIntervals = False
+158.0157 	EXP 	fixation: autoDraw = True
+159.0154 	EXP 	fixation: autoDraw = False
+159.0318 	EXP 	grating: autoDraw = True
+159.0318 	EXP 	grating: tex = 'sin'
+159.3320 	EXP 	grating: autoDraw = False
+159.4009 	EXP 	window1: recordFrameIntervals = False
+159.4020 	DATA 	Keypress: right
+159.4153 	EXP 	fixation: autoDraw = False
+159.4153 	EXP 	grating: autoDraw = False
+159.4155 	EXP 	window1: recordFrameIntervals = False
+160.3992 	EXP 	fixation: autoDraw = True
+161.3985 	EXP 	fixation: autoDraw = False
+161.4155 	EXP 	grating: autoDraw = True
+161.4155 	EXP 	grating: tex = 'sin'
+161.7155 	EXP 	grating: autoDraw = False
+161.9506 	EXP 	window1: recordFrameIntervals = False
+161.9516 	DATA 	Keypress: left
+161.9653 	EXP 	fixation: autoDraw = False
+161.9653 	EXP 	grating: autoDraw = False
+161.9655 	EXP 	window1: recordFrameIntervals = False
+162.9483 	EXP 	fixation: autoDraw = True
+163.9491 	EXP 	fixation: autoDraw = False
+163.9651 	EXP 	grating: autoDraw = True
+163.9651 	EXP 	grating: tex = 'sin'
+164.2657 	EXP 	grating: autoDraw = False
+164.2678 	EXP 	window1: recordFrameIntervals = False
+164.2687 	DATA 	Keypress: left
+164.2822 	EXP 	fixation: autoDraw = False
+164.2822 	EXP 	grating: autoDraw = False
+164.2824 	EXP 	window1: recordFrameIntervals = False
+165.2658 	EXP 	fixation: autoDraw = True
+166.2652 	EXP 	fixation: autoDraw = False
+166.2822 	EXP 	grating: autoDraw = True
+166.2822 	EXP 	grating: tex = 'sin'
+166.5674 	EXP 	window1: recordFrameIntervals = False
+166.5685 	DATA 	Keypress: left
+166.5822 	EXP 	grating: autoDraw = False
+166.5822 	EXP 	fixation: autoDraw = False
+166.5822 	EXP 	grating: autoDraw = False
+166.5824 	EXP 	window1: recordFrameIntervals = False
+167.5654 	EXP 	fixation: autoDraw = True
+168.5656 	EXP 	fixation: autoDraw = False
+168.5821 	EXP 	grating: autoDraw = True
+168.5821 	EXP 	grating: tex = 'sin'
+168.7507 	EXP 	window1: recordFrameIntervals = False
+168.7518 	DATA 	Keypress: left
+168.7655 	EXP 	fixation: autoDraw = False
+168.7655 	EXP 	grating: autoDraw = False
+168.7656 	EXP 	window1: recordFrameIntervals = False
+169.7500 	EXP 	fixation: autoDraw = True
+170.7653 	EXP 	fixation: autoDraw = False
+170.7653 	EXP 	grating: autoDraw = True
+170.7653 	EXP 	grating: tex = 'sin'
+171.0011 	EXP 	window1: recordFrameIntervals = False
+171.0022 	DATA 	Keypress: right
+171.0156 	EXP 	fixation: autoDraw = False
+171.0156 	EXP 	grating: autoDraw = False
+171.0158 	EXP 	window1: recordFrameIntervals = False
+171.9992 	EXP 	fixation: autoDraw = True
+172.9989 	EXP 	fixation: autoDraw = False
+173.0159 	EXP 	grating: autoDraw = True
+173.0159 	EXP 	grating: tex = 'sin'
+173.2511 	EXP 	window1: recordFrameIntervals = False
+173.2521 	DATA 	Keypress: right
+173.2658 	EXP 	fixation: autoDraw = False
+173.2658 	EXP 	grating: autoDraw = False
+173.2660 	EXP 	window1: recordFrameIntervals = False
+174.2502 	EXP 	fixation: autoDraw = True
+175.2491 	EXP 	fixation: autoDraw = False
+175.2662 	EXP 	grating: autoDraw = True
+175.2662 	EXP 	grating: tex = 'sin'
+175.3681 	EXP 	window1: recordFrameIntervals = False
+175.3692 	DATA 	Keypress: right
+175.3825 	EXP 	fixation: autoDraw = False
+175.3825 	EXP 	grating: autoDraw = False
+175.3827 	EXP 	window1: recordFrameIntervals = False
+176.3659 	EXP 	fixation: autoDraw = True
+177.3658 	EXP 	fixation: autoDraw = False
+177.3826 	EXP 	grating: autoDraw = True
+177.3826 	EXP 	grating: tex = 'sin'
+177.5519 	EXP 	window1: recordFrameIntervals = False
+177.5528 	DATA 	Keypress: right
+177.5664 	EXP 	fixation: autoDraw = False
+177.5664 	EXP 	grating: autoDraw = False
+177.5666 	EXP 	window1: recordFrameIntervals = False
+178.5495 	EXP 	fixation: autoDraw = True
+179.5495 	EXP 	fixation: autoDraw = False
+179.5658 	EXP 	grating: autoDraw = True
+179.5658 	EXP 	grating: tex = 'sin'
+179.6181 	EXP 	window1: recordFrameIntervals = False
+179.6192 	DATA 	Keypress: left
+179.6324 	EXP 	fixation: autoDraw = False
+179.6324 	EXP 	grating: autoDraw = False
+179.6326 	EXP 	window1: recordFrameIntervals = False
+180.6158 	EXP 	fixation: autoDraw = True
+181.6160 	EXP 	fixation: autoDraw = False
+181.6327 	EXP 	grating: autoDraw = True
+181.6327 	EXP 	grating: tex = 'sin'
+181.9326 	EXP 	grating: autoDraw = False
+182.0180 	EXP 	window1: recordFrameIntervals = False
+182.0189 	DATA 	Keypress: right
+182.0328 	EXP 	fixation: autoDraw = False
+182.0328 	EXP 	grating: autoDraw = False
+182.0331 	EXP 	window1: recordFrameIntervals = False
+183.0162 	EXP 	fixation: autoDraw = True
+184.0153 	EXP 	fixation: autoDraw = False
+184.0322 	EXP 	grating: autoDraw = True
+184.0322 	EXP 	grating: tex = 'sin'
+184.3326 	EXP 	grating: autoDraw = False
+184.3508 	EXP 	window1: recordFrameIntervals = False
+184.3519 	DATA 	Keypress: right
+184.3657 	EXP 	fixation: autoDraw = False
+184.3657 	EXP 	grating: autoDraw = False
+184.3659 	EXP 	window1: recordFrameIntervals = False
+185.3489 	EXP 	fixation: autoDraw = True
+186.3498 	EXP 	fixation: autoDraw = False
+186.3498 	EXP 	grating: autoDraw = True
+186.3498 	EXP 	grating: tex = 'sin'
+186.6346 	EXP 	window1: recordFrameIntervals = False
+186.6356 	DATA 	Keypress: right
+186.6496 	EXP 	grating: autoDraw = False
+186.6496 	EXP 	fixation: autoDraw = False
+186.6496 	EXP 	grating: autoDraw = False
+186.6497 	EXP 	window1: recordFrameIntervals = False
+187.6332 	EXP 	fixation: autoDraw = True
+188.6327 	EXP 	fixation: autoDraw = False
+188.6327 	EXP 	grating: autoDraw = True
+188.6327 	EXP 	grating: tex = 'sin'
+188.9021 	EXP 	window1: recordFrameIntervals = False
+188.9032 	DATA 	Keypress: right
+188.9163 	EXP 	fixation: autoDraw = False
+188.9163 	EXP 	grating: autoDraw = False
+188.9165 	EXP 	window1: recordFrameIntervals = False
+189.9001 	EXP 	fixation: autoDraw = True
+190.8994 	EXP 	fixation: autoDraw = False
+190.9164 	EXP 	grating: autoDraw = True
+190.9164 	EXP 	grating: tex = 'sin'
+191.1350 	EXP 	window1: recordFrameIntervals = False
+191.1361 	DATA 	Keypress: right
+191.1495 	EXP 	fixation: autoDraw = False
+191.1495 	EXP 	grating: autoDraw = False
+191.1497 	EXP 	window1: recordFrameIntervals = False
+192.1345 	EXP 	fixation: autoDraw = True
+193.1495 	EXP 	fixation: autoDraw = False
+193.1495 	EXP 	grating: autoDraw = True
+193.1495 	EXP 	grating: tex = 'sin'
+193.3178 	EXP 	window1: recordFrameIntervals = False
+193.3188 	DATA 	Keypress: right
+193.3327 	EXP 	fixation: autoDraw = False
+193.3327 	EXP 	grating: autoDraw = False
+193.3330 	EXP 	window1: recordFrameIntervals = False
+194.3163 	EXP 	fixation: autoDraw = True
+195.3164 	EXP 	fixation: autoDraw = False
+195.3164 	EXP 	grating: autoDraw = True
+195.3164 	EXP 	grating: tex = 'sin'
+195.5517 	EXP 	window1: recordFrameIntervals = False
+195.5527 	DATA 	Keypress: left
+195.5661 	EXP 	fixation: autoDraw = False
+195.5661 	EXP 	grating: autoDraw = False
+195.5663 	EXP 	window1: recordFrameIntervals = False
+196.5497 	EXP 	fixation: autoDraw = True
+197.5495 	EXP 	fixation: autoDraw = False
+197.5663 	EXP 	grating: autoDraw = True
+197.5663 	EXP 	grating: tex = 'sin'
+197.8665 	EXP 	grating: autoDraw = False
+197.9185 	EXP 	window1: recordFrameIntervals = False
+197.9195 	DATA 	Keypress: left
+197.9332 	EXP 	fixation: autoDraw = False
+197.9332 	EXP 	grating: autoDraw = False
+197.9335 	EXP 	window1: recordFrameIntervals = False
+198.9166 	EXP 	fixation: autoDraw = True
+199.9161 	EXP 	fixation: autoDraw = False
+199.9331 	EXP 	grating: autoDraw = True
+199.9331 	EXP 	grating: tex = 'sin'
+200.2333 	EXP 	grating: autoDraw = False
+200.2353 	EXP 	window1: recordFrameIntervals = False
+200.2364 	DATA 	Keypress: right
+200.2500 	EXP 	fixation: autoDraw = False
+200.2500 	EXP 	grating: autoDraw = False
+200.2502 	EXP 	window1: recordFrameIntervals = False
+201.2488 	EXP 	fixation: autoDraw = True
+202.2498 	EXP 	fixation: autoDraw = False
+202.2498 	EXP 	grating: autoDraw = True
+202.2498 	EXP 	grating: tex = 'sin'
+202.5500 	EXP 	grating: autoDraw = False
+202.6852 	EXP 	window1: recordFrameIntervals = False
+202.6863 	DATA 	Keypress: left
+202.6994 	EXP 	fixation: autoDraw = False
+202.6994 	EXP 	grating: autoDraw = False
+202.6996 	EXP 	window1: recordFrameIntervals = False
+203.6830 	EXP 	fixation: autoDraw = True
+204.6831 	EXP 	fixation: autoDraw = False
+204.7002 	EXP 	grating: autoDraw = True
+204.7002 	EXP 	grating: tex = 'sin'
+205.0000 	EXP 	grating: autoDraw = False
+205.0189 	EXP 	window1: recordFrameIntervals = False
+205.0197 	DATA 	Keypress: right
+205.0328 	EXP 	fixation: autoDraw = False
+205.0328 	EXP 	grating: autoDraw = False
+205.0331 	EXP 	window1: recordFrameIntervals = False
+206.0171 	EXP 	fixation: autoDraw = True
+207.0169 	EXP 	fixation: autoDraw = False
+207.0335 	EXP 	grating: autoDraw = True
+207.0335 	EXP 	grating: tex = 'sin'
+207.3330 	EXP 	grating: autoDraw = False
+207.3689 	EXP 	window1: recordFrameIntervals = False
+207.3699 	DATA 	Keypress: left
+207.3834 	EXP 	fixation: autoDraw = False
+207.3834 	EXP 	grating: autoDraw = False
+207.3836 	EXP 	window1: recordFrameIntervals = False
+208.3677 	EXP 	fixation: autoDraw = True
+209.3668 	EXP 	fixation: autoDraw = False
+209.3833 	EXP 	grating: autoDraw = True
+209.3833 	EXP 	grating: tex = 'sin'
+209.6685 	EXP 	window1: recordFrameIntervals = False
+209.6696 	DATA 	Keypress: right
+209.6834 	EXP 	grating: autoDraw = False
+209.6834 	EXP 	fixation: autoDraw = False
+209.6834 	EXP 	grating: autoDraw = False
+209.6836 	EXP 	window1: recordFrameIntervals = False
+210.6672 	EXP 	fixation: autoDraw = True
+211.6669 	EXP 	fixation: autoDraw = False
+211.6833 	EXP 	grating: autoDraw = True
+211.6833 	EXP 	grating: tex = 'sin'
+211.9834 	EXP 	grating: autoDraw = False
+212.0017 	EXP 	window1: recordFrameIntervals = False
+212.0027 	DATA 	Keypress: left
+212.0167 	EXP 	fixation: autoDraw = False
+212.0167 	EXP 	grating: autoDraw = False
+212.0169 	EXP 	window1: recordFrameIntervals = False
+213.0012 	EXP 	fixation: autoDraw = True
+214.0001 	EXP 	grating: autoDraw = True
+214.0001 	EXP 	grating: tex = 'sin'
+214.0166 	EXP 	fixation: autoDraw = False
+214.2857 	EXP 	window1: recordFrameIntervals = False
+214.2868 	DATA 	Keypress: right
+214.3001 	EXP 	grating: autoDraw = False
+214.3001 	EXP 	fixation: autoDraw = False
+214.3001 	EXP 	grating: autoDraw = False
+214.3003 	EXP 	window1: recordFrameIntervals = False
+215.2847 	EXP 	fixation: autoDraw = True
+216.3003 	EXP 	fixation: autoDraw = False
+216.3003 	EXP 	grating: autoDraw = True
+216.3003 	EXP 	grating: tex = 'sin'
+216.6003 	EXP 	grating: autoDraw = False
+216.6683 	EXP 	window1: recordFrameIntervals = False
+216.6691 	DATA 	Keypress: right
+216.6842 	EXP 	fixation: autoDraw = False
+216.6842 	EXP 	grating: autoDraw = False
+216.6845 	EXP 	window1: recordFrameIntervals = False
+217.6675 	EXP 	fixation: autoDraw = True
+218.6669 	EXP 	fixation: autoDraw = False
+218.6669 	EXP 	grating: autoDraw = True
+218.6669 	EXP 	grating: tex = 'sin'
+218.9667 	EXP 	grating: autoDraw = False
+219.0690 	EXP 	window1: recordFrameIntervals = False
+219.0700 	DATA 	Keypress: left
+219.0838 	EXP 	fixation: autoDraw = False
+219.0838 	EXP 	grating: autoDraw = False
+219.0840 	EXP 	window1: recordFrameIntervals = False
+220.0673 	EXP 	fixation: autoDraw = True
+221.0670 	EXP 	fixation: autoDraw = False
+221.0836 	EXP 	grating: autoDraw = True
+221.0836 	EXP 	grating: tex = 'sin'
+221.3834 	EXP 	grating: autoDraw = False
+221.5025 	EXP 	window1: recordFrameIntervals = False
+221.5035 	DATA 	Keypress: left
+221.5170 	EXP 	fixation: autoDraw = False
+221.5170 	EXP 	grating: autoDraw = False
+221.5172 	EXP 	window1: recordFrameIntervals = False
+222.5005 	EXP 	fixation: autoDraw = True
+223.5009 	EXP 	fixation: autoDraw = False
+223.5172 	EXP 	grating: autoDraw = True
+223.5172 	EXP 	grating: tex = 'sin'
+223.8172 	EXP 	grating: autoDraw = False
+223.8356 	EXP 	window1: recordFrameIntervals = False
+223.8366 	DATA 	Keypress: right
+223.8505 	EXP 	fixation: autoDraw = False
+223.8505 	EXP 	grating: autoDraw = False
+223.8507 	EXP 	window1: recordFrameIntervals = False
+224.8344 	EXP 	fixation: autoDraw = True
+225.8338 	EXP 	fixation: autoDraw = False
+225.8506 	EXP 	grating: autoDraw = True
+225.8506 	EXP 	grating: tex = 'sin'
+226.1505 	EXP 	grating: autoDraw = False
+226.1857 	DATA 	Keypress: right
+226.2017 	EXP 	window1: recordFrameIntervals = False
+226.2170 	EXP 	fixation: autoDraw = False
+226.2170 	EXP 	grating: autoDraw = False
+226.2172 	EXP 	window1: recordFrameIntervals = False
+227.2007 	EXP 	fixation: autoDraw = True
+228.2004 	EXP 	fixation: autoDraw = False
+228.2004 	EXP 	grating: autoDraw = True
+228.2004 	EXP 	grating: tex = 'sin'
+228.5008 	EXP 	grating: autoDraw = False
+228.6358 	EXP 	window1: recordFrameIntervals = False
+228.6367 	DATA 	Keypress: left
+228.6507 	EXP 	fixation: autoDraw = False
+228.6507 	EXP 	grating: autoDraw = False
+228.6509 	EXP 	window1: recordFrameIntervals = False
+229.6348 	EXP 	fixation: autoDraw = True
+230.6506 	EXP 	fixation: autoDraw = False
+230.6506 	EXP 	grating: autoDraw = True
+230.6506 	EXP 	grating: tex = 'sin'
+230.8526 	EXP 	window1: recordFrameIntervals = False
+230.8535 	DATA 	Keypress: right
+230.8673 	EXP 	fixation: autoDraw = False
+230.8673 	EXP 	grating: autoDraw = False
+230.8674 	EXP 	window1: recordFrameIntervals = False
+231.8512 	EXP 	fixation: autoDraw = True
+232.8507 	EXP 	fixation: autoDraw = False
+232.8675 	EXP 	grating: autoDraw = True
+232.8675 	EXP 	grating: tex = 'sin'
+233.1674 	EXP 	grating: autoDraw = False
+233.2192 	EXP 	window1: recordFrameIntervals = False
+233.2203 	DATA 	Keypress: right
+233.2337 	EXP 	fixation: autoDraw = False
+233.2337 	EXP 	grating: autoDraw = False
+233.2339 	EXP 	window1: recordFrameIntervals = False
+234.2193 	EXP 	fixation: autoDraw = True
+235.2344 	EXP 	fixation: autoDraw = False
+235.2344 	EXP 	grating: autoDraw = True
+235.2344 	EXP 	grating: tex = 'sin'
+235.5338 	EXP 	grating: autoDraw = False
+235.5529 	EXP 	window1: recordFrameIntervals = False
+235.5540 	DATA 	Keypress: left
+235.5672 	EXP 	fixation: autoDraw = False
+235.5672 	EXP 	grating: autoDraw = False
+235.5674 	EXP 	window1: recordFrameIntervals = False
+236.5510 	EXP 	fixation: autoDraw = True
+237.5508 	EXP 	fixation: autoDraw = False
+237.5677 	EXP 	grating: autoDraw = True
+237.5677 	EXP 	grating: tex = 'sin'
+237.8360 	EXP 	window1: recordFrameIntervals = False
+237.8374 	DATA 	Keypress: right
+237.8505 	EXP 	fixation: autoDraw = False
+237.8505 	EXP 	grating: autoDraw = False
+237.8507 	EXP 	window1: recordFrameIntervals = False
+238.8339 	EXP 	fixation: autoDraw = True
+239.8340 	EXP 	fixation: autoDraw = False
+239.8504 	EXP 	grating: autoDraw = True
+239.8504 	EXP 	grating: tex = 'sin'
+240.1025 	EXP 	window1: recordFrameIntervals = False
+240.1035 	DATA 	Keypress: right
+240.1176 	EXP 	fixation: autoDraw = False
+240.1176 	EXP 	grating: autoDraw = False
+240.1178 	EXP 	window1: recordFrameIntervals = False
+241.1003 	EXP 	fixation: autoDraw = True
+242.1005 	EXP 	fixation: autoDraw = False
+242.1175 	EXP 	grating: autoDraw = True
+242.1175 	EXP 	grating: tex = 'sin'
+242.4180 	EXP 	grating: autoDraw = False
+245.9523 	EXP 	window1: recordFrameIntervals = False
+245.9534 	DATA 	Keypress: right
+245.9675 	EXP 	fixation: autoDraw = False
+245.9675 	EXP 	grating: autoDraw = False
+245.9676 	EXP 	window1: recordFrameIntervals = False
+246.9517 	EXP 	fixation: autoDraw = True
+247.9512 	EXP 	fixation: autoDraw = False
+247.9512 	EXP 	grating: autoDraw = True
+247.9512 	EXP 	grating: tex = 'sin'
+248.2510 	EXP 	grating: autoDraw = False
+248.3363 	EXP 	window1: recordFrameIntervals = False
+248.3374 	DATA 	Keypress: left
+248.3512 	EXP 	fixation: autoDraw = False
+248.3512 	EXP 	grating: autoDraw = False
+248.3514 	EXP 	window1: recordFrameIntervals = False
+249.3349 	EXP 	fixation: autoDraw = True
+250.3346 	EXP 	fixation: autoDraw = False
+250.3509 	EXP 	grating: autoDraw = True
+250.3509 	EXP 	grating: tex = 'sin'
+250.6512 	EXP 	grating: autoDraw = False
+250.6698 	EXP 	window1: recordFrameIntervals = False
+250.6708 	DATA 	Keypress: right
+250.6842 	EXP 	fixation: autoDraw = False
+250.6842 	EXP 	grating: autoDraw = False
+250.6844 	EXP 	window1: recordFrameIntervals = False
+251.6679 	EXP 	fixation: autoDraw = True
+252.6679 	EXP 	fixation: autoDraw = False
+252.6845 	EXP 	grating: autoDraw = True
+252.6845 	EXP 	grating: tex = 'sin'
+252.9846 	EXP 	grating: autoDraw = False
+253.0031 	EXP 	window1: recordFrameIntervals = False
+253.0042 	DATA 	Keypress: right
+253.0179 	EXP 	fixation: autoDraw = False
+253.0179 	EXP 	grating: autoDraw = False
+253.0181 	EXP 	window1: recordFrameIntervals = False
+254.0019 	EXP 	fixation: autoDraw = True
+255.0008 	EXP 	fixation: autoDraw = False
+255.0176 	EXP 	grating: autoDraw = True
+255.0176 	EXP 	grating: tex = 'sin'
+255.3180 	EXP 	grating: autoDraw = False
+255.3532 	EXP 	window1: recordFrameIntervals = False
+255.3543 	DATA 	Keypress: right
+255.3679 	EXP 	fixation: autoDraw = False
+255.3679 	EXP 	grating: autoDraw = False
+255.3681 	EXP 	window1: recordFrameIntervals = False
+256.3511 	EXP 	fixation: autoDraw = True
+257.3510 	EXP 	fixation: autoDraw = False
+257.3677 	EXP 	grating: autoDraw = True
+257.3677 	EXP 	grating: tex = 'sin'
+257.6366 	EXP 	window1: recordFrameIntervals = False
+257.6377 	DATA 	Keypress: left
+257.6514 	EXP 	fixation: autoDraw = False
+257.6514 	EXP 	grating: autoDraw = False
+257.6515 	EXP 	window1: recordFrameIntervals = False
+258.6356 	EXP 	fixation: autoDraw = True
+259.6348 	EXP 	fixation: autoDraw = False
+259.6513 	EXP 	grating: autoDraw = True
+259.6513 	EXP 	grating: tex = 'sin'
+259.8533 	EXP 	window1: recordFrameIntervals = False
+259.8543 	DATA 	Keypress: right
+259.8682 	EXP 	fixation: autoDraw = False
+259.8682 	EXP 	grating: autoDraw = False
+259.8684 	EXP 	window1: recordFrameIntervals = False
+260.8511 	EXP 	fixation: autoDraw = True
+261.8512 	EXP 	fixation: autoDraw = False
+261.8512 	EXP 	grating: autoDraw = True
+261.8512 	EXP 	grating: tex = 'sin'
+262.1516 	EXP 	grating: autoDraw = False
+262.1536 	EXP 	window1: recordFrameIntervals = False
+262.1547 	DATA 	Keypress: right
+262.1681 	EXP 	fixation: autoDraw = False
+262.1681 	EXP 	grating: autoDraw = False
+262.1683 	EXP 	window1: recordFrameIntervals = False
+263.1517 	EXP 	fixation: autoDraw = True
+264.1517 	EXP 	fixation: autoDraw = False
+264.1681 	EXP 	grating: autoDraw = True
+264.1681 	EXP 	grating: tex = 'sin'
+264.4684 	EXP 	grating: autoDraw = False
+264.5368 	EXP 	window1: recordFrameIntervals = False
+264.5380 	DATA 	Keypress: right
+264.5515 	EXP 	fixation: autoDraw = False
+264.5515 	EXP 	grating: autoDraw = False
+264.5517 	EXP 	window1: recordFrameIntervals = False
+265.5357 	EXP 	fixation: autoDraw = True
+266.5348 	EXP 	fixation: autoDraw = False
+266.5518 	EXP 	grating: autoDraw = True
+266.5518 	EXP 	grating: tex = 'sin'
+266.8514 	EXP 	grating: autoDraw = False
+266.8869 	EXP 	window1: recordFrameIntervals = False
+266.8880 	DATA 	Keypress: right
+266.9013 	EXP 	fixation: autoDraw = False
+266.9013 	EXP 	grating: autoDraw = False
+266.9015 	EXP 	window1: recordFrameIntervals = False
+267.9013 	EXP 	fixation: autoDraw = True
+268.9014 	EXP 	fixation: autoDraw = False
+268.9014 	EXP 	grating: autoDraw = True
+268.9014 	EXP 	grating: tex = 'sin'
+269.2013 	EXP 	grating: autoDraw = False
+269.2202 	DATA 	Keypress: right
+269.2347 	EXP 	fixation: autoDraw = False
+269.2347 	EXP 	grating: autoDraw = False
+269.3235 	EXP 	window1: mouseVisible = True
